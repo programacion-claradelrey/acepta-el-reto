@@ -22,11 +22,16 @@ public class Problema402DimensionesPuzzle {
 				int ladoMenor = (int) Math.sqrt(numPiezas);
 				int resto;
 				resto = numPiezas % ladoMenor;
-				// Mientras que el producto de los dos lados 
+				// Si al dividir el número de piezas por el lado menor el resto es cero, es que
+				// hemos encontrado el mayor valor para el lado menor. Si el resto es distinto
+				// de cero, vamos reduciendo en 1 el número de piezas hasta que encontremos el
+				// que hace que el resto sea cero.
 				while (resto != 0) {
 					ladoMenor--;
 					resto = numPiezas % ladoMenor;
 				}
+				// Al salir del while hemos encontrado el valor. Siempre tiene solución. En el
+				// peor de los casos lado menor será 1 y el puzle será de tamaño 1 x numPiezas
 				System.out.println(numPiezas / ladoMenor);
 			}
 		}

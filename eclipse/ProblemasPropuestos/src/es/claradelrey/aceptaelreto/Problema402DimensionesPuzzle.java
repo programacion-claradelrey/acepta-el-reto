@@ -3,7 +3,7 @@ package es.claradelrey.aceptaelreto;
 import java.util.Scanner;
 
 /**
- * Problema https://www.aceptaelreto.com/problem/mysubmissions.php?id=402
+ * Problema https://www.aceptaelreto.com/problem/statement.php?id=402
  */
 public class Problema402DimensionesPuzzle {
 	public static void main(String[] args) {

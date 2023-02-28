@@ -6,8 +6,17 @@ import java.util.Scanner;
  * 
  * Plantilla de programa para solucionar los problemas de Acepta el Reto que
  * comienzan con el número de casos que hay que procesar
- *
+ * 
  */
+
+// Ejemplos de problemas con este tipo de control de entrada:
+// - https://www.aceptaelreto.com/problem/statement.php?id=114 
+//	 Último dígito del factorial
+// - https://www.aceptaelreto.com/problem/statement.php?id=117
+//	 La fiesta aburrida
+// - https://www.aceptaelreto.com/problem/statement.php?id=474
+//   Tu amigable vecino
+
 public class PlantillaNumeroCasos {
 
 	// Creamos el Scanner como estático a nivel de clase para no tener que pasarlo

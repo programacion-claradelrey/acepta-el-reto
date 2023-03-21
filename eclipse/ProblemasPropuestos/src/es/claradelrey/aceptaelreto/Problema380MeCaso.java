@@ -1,7 +1,7 @@
-package entrenamiento;
+package es.claradelrey.aceptaelreto;
 
 import java.util.Scanner;
-/* ¡Me caso! 
+/* ï¿½Me caso! 
  * Problema https://www.aceptaelreto.com/problem/statement.php?id=380
  */
 public class Problema380MeCaso {

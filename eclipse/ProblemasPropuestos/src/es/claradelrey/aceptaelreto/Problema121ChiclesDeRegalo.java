@@ -1,4 +1,4 @@
-package entrenamiento;
+package es.claradelrey.aceptaelreto;
 
 /**
 Entrada

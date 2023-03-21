@@ -14,7 +14,12 @@ import java.util.Scanner;
  */
 
 // Ejemplos de problemas con este tipo de control de entrada:
-// - 
+// - https://www.aceptaelreto.com/problem/statement.php?id=333
+//   Números bicapicua
+// - https://www.aceptaelreto.com/problem/statement.php?id=148
+//   Nochevieja
+// - https://www.aceptaelreto.com/problem/statement.php?id=130
+//   Mejor ... imposible
 public class PlantillaCasoFinal {
 
 	// Creamos el Scanner como estático a nivel de clase para no tener que pasarlo

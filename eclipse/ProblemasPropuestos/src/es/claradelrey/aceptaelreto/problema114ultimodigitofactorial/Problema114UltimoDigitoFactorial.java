@@ -1,4 +1,4 @@
-package es.claradelrey.aceptaelreto;
+package es.claradelrey.aceptaelreto.problema114ultimodigitofactorial;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package es.claradelrey.aceptaelreto;
+package es.claradelrey.aceptaelreto.problema402dimensionespuzzle;
 
 import java.util.Scanner;
 

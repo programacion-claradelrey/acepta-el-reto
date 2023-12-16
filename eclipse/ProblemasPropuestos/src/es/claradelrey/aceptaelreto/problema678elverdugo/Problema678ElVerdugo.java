@@ -1,10 +1,6 @@
 package es.claradelrey.aceptaelreto.problema678elverdugo;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 

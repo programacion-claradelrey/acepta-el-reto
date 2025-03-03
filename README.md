@@ -9,11 +9,11 @@ Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, diri
 - Familiarizarse con el formato y las reglas de **ProgramaMe**.  
 
 ## 📂 Contenidos  
-📁 **Problemas** - Información de algunos problemas de **aceptaelreto.com**, clasificados por dificultad, tipo de problema, estructuras de datos utilizadas, etc.  
+📁 **Problemas** - Información de algunos problemas de **aceptaelreto.com**, clasificados por dificultad, tipo de problema, estructuras de datos utilizadas, etc. (Pendiente de actualización)  
 
 📁 **Soluciones** - Soluciones a algunos problemas de **aceptaelreto.com**, implementadas en Java, en muchas casos con explicaciones.
 
-📁 **Recursos** - Enlaces útiles, guías y libros recomendados.  
+📁 **Recursos** - Enlaces útiles, guías y libros recomendados. (Pendiente de actualización)
 
 ## 🏁 Cómo Empezar    
 1. **Clona el repositorio:**  

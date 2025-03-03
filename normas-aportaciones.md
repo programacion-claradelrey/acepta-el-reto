@@ -2,9 +2,14 @@
 
 ## Normas para aportar soluciones a problemas.
 Desde el equipo de preparación de ProgramaMe en el IES Clara del Rey estaremos encantados de que cualquier persona interesada, sea alumno o no del centro, aporte soluciones a problemas de aceptaelreto.com.
+
 El objetivo de este repositorio no es simplemente disponer de soluciones, sino que sea un recurso de aprendizaje de algoritmia en general, y programación competitiva en particular.
-Por eso, se han establecido una serie de normas que debe cumplir cualquier aportación al repositorio. En principio, de momento, se admitirán sólo soluciones a problemas. En un futuro puede que se amplíe el espectro a aportaciones con contenido teórico, ejemplos de aplicación de algoritmos, enlaces, artículos, recursos, etc. Pero de momento se va a valorar solo las aportaciones de soluciones.
-Antes de realizar una push request para subir la solución a un problema, asegurate de seguir y entender estas normas:
+
+Por eso, se han establecido una serie de normas que debe cumplir cualquier aportación al repositorio. 
+
+De momento se admitirán sólo soluciones a problemas. En un futuro puede que se amplíe el espectro a aportaciones con contenido teórico, ejemplos de aplicación de algoritmos, enlaces, artículos, recursos, etc. Pero de momento se va a valorar solo las aportaciones de soluciones.
+
+Antes de realizar una push request para subir la solución a un problema, asegurate de seguir y entender estas normas y recomendaciones:
 
 1. **Sólo se admitirán soluciones aceptadas (AC) en aceptaelreto.com.**
 

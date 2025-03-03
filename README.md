@@ -1,6 +1,6 @@
 # 🏆 Acepta el reto y ProgramaMe en el IES Clara del Rey  
 
-Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, dirigido a los estudiantes del **IES Clara del Rey**. Aquí encontrarás problemas de programación de **aceptaelreto.com(https://aceptaelreto.com)** , material de apoyo y recursos para mejorar tus habilidades en algoritmos y estructuras de datos utilizando **Java**.  
+Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, dirigido a los estudiantes del **IES Clara del Rey**. Aquí encontrarás problemas de programación de **[aceptaelreto.com](https://aceptaelreto.com)** , material de apoyo y recursos para mejorar tus habilidades en algoritmos y estructuras de datos utilizando **Java**.  
 
 ## 📌 Objetivos  
 - Desarrollar rapidez y precisión en la resolución de problemas.  
@@ -30,5 +30,5 @@ Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, diri
    - En aceptaelreto.com tienes el enunciado y los casos de prueba.
    
 ## 🤝 Contribuir  
-Antes de nada, lee las **normas y convenciones para realizar aportaciones(normas-aportaciones.md)**.
+Antes de nada, lee las [normas y convenciones para realizar aportaciones](normas-aportaciones.md).
 Una vez que las hayas leido y tengas todo claro, si quieres aportar problemas o soluciones, ¡haz un **pull request**!  

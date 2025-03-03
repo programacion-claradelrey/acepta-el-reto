@@ -26,9 +26,13 @@ Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, diri
    
 3. **Empieza a resolver problemas**  
    - En la carpeta "Problemas" tendrás información sobre distintos tipos de problemas de aceptaelreto.com, clasificados por distintos criterios, entre estos, el nivel de dificultad.
-   - Si eres nuevo en programación competitiva, comienza  con los problemas más fáciles.
+   - Si eres nuevo en programación competitiva, comienza  con los problemas más fáciles. En [Recursos](Recursos) tienes información y ejemplos de los distintos tipos de problema que se plantean en acepta el reto.
+   - También puedes elegir cualquier problema de aceptaelreto.com e intentar solucionarlo, aunque no aparezca en ningún listado de este repositorio.
    - En aceptaelreto.com tienes el enunciado y los casos de prueba.
    
 ## 🤝 Contribuir  
 Antes de nada, lee las [normas y convenciones para realizar aportaciones](normas-aportaciones.md).
+
 Una vez que las hayas leido y tengas todo claro, si quieres aportar problemas o soluciones, ¡haz un **pull request**!  
+
+Estaremos encantados de cualquier aportación, sea de alumnos o antiguos alumnos del centro, o de cualquier persona interesada en la programación competitiva.

@@ -56,6 +56,13 @@ Antes de realizar una push request para subir la solución a un problema, asegur
 
    El directorio "soluciones", que originalmente era una carpeta de proyecto eclipse, se ha reorganizado para que sea, simplemente, una carpeta "normal", con una subcarpeta para cada uno de los problemas, y programas .java en estas carpetas. La idea es que no haya en el repositorio ninguna clase de metadatos o configuración de proyecto de ningún entorno de desarrollo o editor de código (Eclipse, IntelliJ Idea, VS Code, etc.). Tampoco habrá ninguna clase de configuración respecto a versión de Java o SDK utilizado. Si se desea probar los problemas en un entorno local, se pueden descargar o clonar el repositorio, y usar el editor que se prefiera. 
 
+10. **El equipo del IES Clara del Rey se reserva el derecho de modificar las soluciones propuestas**.
 
+    Cualquier solución propuesta, una vez aceptada, puede ser modificada por el equipo de coordinación del concurso ProgramMe en el IES Clara del Rey. Estas modificaciones siempre estarán encaminadas a mejorar el problema en uno o varios de estos aspectos:
+    - Mejorar el estilo del programa, modificando nobres de variables, refactorizando para extrar métodos, etc.
+    - Completar la documentación, añadiendo comentarios o modificando los existentes, para que tenga una mejor aplicación didáctica.
+    - Mejorar el rendimiento haciendo cambios en tipos de datos, optimizando bucles, etc.
+   
+   En el caso de cambios "radicales", como por ejemplo, mejorar rendimiento cambiando un algoritmo recursivo por uno iterativo, se propondrán soluciones alternativas al problema, siquiendo las indicaciones al respecto ya menocionadas..
 
 

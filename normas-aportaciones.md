@@ -35,7 +35,7 @@ Antes de realizar una push request para subir la solución a un problema, asegur
 
 5. **Programa con el mismo nombre que el directorio**.
 
-   El programa para resolver el problema se llamará igual que el directorio, pero añadiendo la extensión .java.
+   El programa para resolver el problema se llamará igual que el directorio, pero añadiendo la extensión .java, y se seguirán las convenciones para clases Java, es decir, UpperCamelCase. Poir ejemplo, la solución para el problema "Los problemas de ser rico" deberá ser Soluciones/problema191problemasserrico/**Problema191ProblemasSerRico.java**.
 
 6. **Se pueden proponer versiones alternativas**.
 

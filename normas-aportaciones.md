@@ -7,13 +7,13 @@ El objetivo de este repositorio no es simplemente disponer de soluciones, sino q
 
 Por eso, se han establecido una serie de normas que debe cumplir cualquier aportación al repositorio. 
 
-De momento se admitirán sólo soluciones a problemas. En un futuro puede que se amplíe el espectro a aportaciones con contenido teórico, ejemplos de aplicación de algoritmos, enlaces, artículos, recursos, etc. Pero de momento se va a valorar solo las aportaciones de soluciones.
+De momento se admitirán solo soluciones a problemas. En un futuro puede que se amplíe el espectro a aportaciones con contenido teórico, ejemplos de aplicación de algoritmos, enlaces, artículos, recursos, etc. Pero de momento se va a valorar solo las aportaciones de soluciones.
 
-Antes de realizar una push request para subir la solución a un problema, asegurate de seguir y entender estas normas y recomendaciones:
+Antes de realizar una petición push request para subir la solución a un problema, asegúrate de seguir y entender estas normas y recomendaciones:
 
-1. **Sólo se admitirán soluciones aceptadas (AC) en aceptaelreto.com.**
+1. **Solo se admitirán soluciones aceptadas (AC) en aceptaelreto.com.**
 
-   Sólo se admitirán push request de soluciones que funcionen y que hayan sido comprobadas en aceptaelreto.com. No basta con que el programa Java pase los casos de prueba de ejemplo, se debe haber conseguido un "Accepted" en aceptaelreto.com. Antes de aceptar la push request, se ejecutará la solución propuesta en acepta el reto, y se verificará su funcionamiento.
+   Solo se admitirán push request de soluciones que funcionen y que hayan sido comprobadas en aceptaelreto.com. No basta con que el programa Java pase los casos de prueba de ejemplo, se debe haber conseguido un "Accepted" en aceptaelreto.com. Antes de aceptar la petición push request, se ejecutará la solución propuesta en "acepta el reto", y se verificará su funcionamiento.
 
 2. **Las soluciones deben escritas con un estilo "didáctico".**
 
@@ -22,20 +22,20 @@ Antes de realizar una push request para subir la solución a un problema, asegur
    - *Usar métodos siempre que se considere necesario y sea viable*. Implementar la solución dividiendo el problema en partes más pequeñas, si es posible. Cuando se compite en un concurso no siempre es posible, pero en el caso de un problema que se resuelve tranquilamente en casa, y que se quiere compartir con la comunidad, podemos tomarnos el tiempo necesario para hacer que sea más estructurado.
    - *Usar comentarios iniciales y en el código*. Incluir un comentario inicial, en el que se explica cómo se soluciona el problema, con qué tecnicas, ayuda como primera aproximación. Por ejemplo, si se usan listas, colas, diccionarios o conjuntos, si se usa recursividad, backtracking o programación dinámica, si se usa un algoritmo específico como BSF, DSF, Dijkstra o cualquier otro. Además, los comentarios en el código explicando cosas no obvias ayudarán a seguir la lógica de la solución. 
    
-3. **Sólo se admitirán soluciones un problema por push request, no a varios problemas .**
+3. **Solo se admitirán soluciones un problema por push request, no a varios problemas.**
 
-   Una push request debe contener sólo la solución a un problema de aceptaelreto.com. Si se proponen soluciones a más de un problema, la push request se rechazará, sin valorar las soluciones propuestas, que deberán volver a enviarse por separado.
+   Una petición push request debe contener solo la solución a un problema de aceptaelreto.com. Si se proponen soluciones a más de un problema, la push request se rechazará, sin valorar las soluciones propuestas, que deberán volver a enviarse por separado.
 
 4. **Un directorio por problema**.
 
-   Por cada problema de acepta el reto se debe crear un directorio dedicado, de la forma "problema<numero><textodescriptivo>".
+   Por cada problema de acepta el reto se debe crear un directorio dedicado, de la forma "problema&lt;número&gt;&lt;textodescriptivo&gt;".
    Por ejemplo, el problema 191, titulado "Los problemas de ser rico", podría estar en el directorio "problema191problemasserrico".
    Otro ejemplo, el problema 568, titulado "No queda otra, habrá que hacer cursos", podría estar en "problema568habraquehacercursos"
    Estos nombres deben estar completamente en minúsculas, para seguir las convenciones de Java, que interpretará la carpeta como un paquete.
 
 5. **Programa con el mismo nombre que el directorio**.
 
-   El programa para resolver el problema se llamará igual que el directorio, pero añadiendo la extensión .java, y se seguirán las convenciones para clases Java, es decir, UpperCamelCase. Poir ejemplo, la solución para el problema "Los problemas de ser rico" deberá ser Soluciones/problema191problemasserrico/**Problema191ProblemasSerRico.java**.
+   El programa para resolver el problema se llamará igual que el directorio, pero añadiendo la extensión .java, y se seguirán las convenciones para clases Java, es decir, UpperCamelCase. Por ejemplo, la solución para el problema "Los problemas de ser rico" deberá ser Soluciones/problema191problemasserrico/**Problema191ProblemasSerRico.java**.
 
 6. **Se pueden proponer versiones alternativas**.
 
@@ -50,7 +50,6 @@ Antes de realizar una push request para subir la solución a un problema, asegur
 8. **No se deben utilizar dependencias externas**.
 
    Esto es un poco evidente, pero ya que en "Acepta el reto" no se pueden usar dependencias externas, las soluciones propuestas no podrá utilizar estructuras de datos o funcionalidades de otros paquetes, como Apache Commons o similares.
-
    
 9. **No se deben subir ficheros de proyecto del entorno de desarrollo**.
 
@@ -58,11 +57,10 @@ Antes de realizar una push request para subir la solución a un problema, asegur
 
 10. **El equipo del IES Clara del Rey se reserva el derecho de modificar las soluciones propuestas**.
 
-    Cualquier solución propuesta, una vez aceptada, puede ser modificada por el equipo de coordinación del concurso ProgramMe en el IES Clara del Rey. Estas modificaciones siempre estarán encaminadas a mejorar el problema en uno o varios de estos aspectos:
-    - Mejorar el estilo del programa, modificando nobres de variables, refactorizando para extrar métodos, etc.
+    Cualquier solución propuesta, una vez aceptada, puede ser modificada por el equipo de coordinación del concurso ProgramaMe en el IES Clara del Rey. Estas modificaciones siempre estarán encaminadas a mejorar el problema en uno o varios de estos aspectos:
+    - Mejorar el estilo del programa, modificando nombres de variables, refactorizando para extraer métodos, etc.
     - Completar la documentación, añadiendo comentarios o modificando los existentes, para que tenga una mejor aplicación didáctica.
     - Mejorar el rendimiento haciendo cambios en tipos de datos, optimizando bucles, etc.
-   
-   En el caso de cambios "radicales", como por ejemplo, mejorar rendimiento cambiando un algoritmo recursivo por uno iterativo, se propondrán soluciones alternativas al problema, siquiendo las indicaciones al respecto ya menocionadas..
+    - En el caso de cambios "radicales", como por ejemplo, mejorar rendimiento cambiando un algoritmo recursivo por uno iterativo, se propondrán soluciones alternativas al problema, siguiendo las indicaciones al respecto ya mencionadas..
 
 

@@ -13,7 +13,7 @@ Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, diri
 
 📁 **Soluciones** - Soluciones a algunos problemas de **aceptaelreto.com**, implementadas en Java, en muchas casos con explicaciones.
 
-📁 **Recursos** - Enlaces útiles, guías y libros recomendados. (Pendiente de actualización)
+📁 **[Recursos](Recursos/README.md)** - Enlaces útiles, guías y libros recomendados. (Pendiente de actualización)
 
 ## 🏁 Cómo Empezar    
 1. **Clona el repositorio:**  

@@ -1,6 +1,5 @@
 # Los tres tipos de entrada en "Acepta el reto"
-En acepta el reto los problemas se pueden clasificar según cómo indican el final de la entrada.
-Identificar correctamente el tipo de entrada es el primer punto para resolver el problema.
+En acepta el reto los problemas se pueden clasificar según cómo indican el final de la entrada. Identificar correctamente el tipo de entrada es el primer punto para resolver el problema.
 
 ## Entrada que comienza con el número de casos de prueba
 Es el caso más sencillo. La **primera línea** indica **cuántos casos** hay, y a continuación 
@@ -34,9 +33,7 @@ public class Main {
 ```
 
 ## Entrada con caso especial que indica el final
-No se indica cuántos casos hay. Se procesan casos **hasta que aparece un valor especial** que
-indica el **final de la entrada**, y que **normalmente no debe procesarse**. Ejemplo de este 
-tipo de entrada:
+No se indica cuántos casos hay. Se procesan casos **hasta que aparece un valor especial** que indica el **final de la entrada**, y que **normalmente no debe procesarse**. Ejemplo de este tipo de entrada:
 ```text
 10
 20
@@ -84,22 +81,19 @@ public class Main {
     }
 }
 ```
-Este modelo para lectura de casos simples puede ser más elaborado con casos más complejos, con
-múltiples líneas por caso, o con varios valores numéricos de entrada en una misma línea. 
-Cada problema necesita un estudio específico de la entrada.
+Este modelo para lectura de casos simples puede ser más elaborado con casos más complejos, con múltiples líneas por caso, o con varios valores numéricos de entrada en una misma línea. Cada problema necesita un estudio específico de la entrada.
 
 ## Entrada que se procesa hasta que no hay más datos (EOF)
-No hay número de casos ni caso especial.
-Se procesan casos **hasta que se acaba la entrada** (EOF: End Of File).
+No hay número de casos ni caso especial. Se procesan casos **hasta que se acaba la entrada** (EOF: End Of File).
+Ejemplo de entrada en un caso de este tipo:
 ```text
 caso1
 caso2
 caso3
 ```
-Para procesar este tipo de problemas, hay que leer de la entrada hasta que no haya más datos 
-disponibles. En Java, se suele hacer bien con Scanner, bien con BufferedReader.
+Para procesar este tipo de problemas, hay que leer de la entrada hasta que no haya más datos disponibles. En Java, se suele hacer bien con Scanner, bien con BufferedReader.
 
-Ejemplo de lectura con Scanner:
+Ejemplo de lectura con Scanner, suponiendo que cada caso necesita leer una línea de texto completa:
 ```java
 import java.util.Scanner;
 private static Scanner sc = new Scanner(System.in);
@@ -115,7 +109,7 @@ public class Main {
 ```
 En Scanner, el método hasNext() indica si hay pendientes datos en la entrada.
 
-Ejemplo de lectura con BufferedReader:
+Ejemplo de lectura con BufferedReader, en las mismas condiciones:
 ```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -134,6 +128,7 @@ public class Main {
 }
 ```
 En BufferedReader, el método "readLine" devuelve null cuando se acaban los datos.
+Nota: en este código se está usando try with resources (la forma try(...){}). Esta sintaxis que simplifica en control / cierre de Streams está disponible desde la versión 7 de Java (JDK 1.7), por lo que debería funcionar bien en aceptaelreto.com.
 
 ## Algunos problemas de cada tipo en acepta el reto
 ### Entrada que empieza con número de casos

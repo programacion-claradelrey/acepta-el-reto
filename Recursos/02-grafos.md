@@ -1,4 +1,4 @@
-# [Grafos]
+# Grafos (próximamente)
 Un **grafo** es una estructura que sirve para representar **relaciones entre elementos**.
 - Los **elementos** se llaman **vértices** (o nodos).
 - Las **relaciones** se llaman **aristas** (o arcos).
@@ -15,8 +15,7 @@ En programación, los grafos aparecen constantemente, sobre todo en:
 - Redes
 - Programación competitiva
 
-Los grafos son una estructura de datos compleja, a veces difícil de comprender
-y utilizar, que requieren cierto estudio y práctica
+Los grafos son una estructura de datos compleja, a veces difícil de comprender y utilizar, que requieren cierto estudio y práctica.
 
 
 

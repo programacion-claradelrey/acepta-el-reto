@@ -17,14 +17,21 @@ Bienvenido al repositorio de entrenamiento para el concurso **ProgramaMe**, diri
 
 ## 🏁 Cómo Empezar    
 1. **Clona el repositorio:**  
-      ```bash
-      git clone https://github.com/programacion-claradelrey/acepta-el-reto
-      cd acepta-el-reto
- 
+   ```bash
+   git clone https://github.com/programacion-claradelrey/acepta-el-reto
+   cd acepta-el-reto
+   ```
+
 2. **Configura tu entorno de desarrollo**  
    - Puedes usar **IntelliJ IDEA**, **VS Code**, **Eclipse**, o cualquier otro entorno o editor.  
    
-3. **Empieza a resolver problemas**  
+3. **Si es tu primera vez en Acepta el reto, lee las guías de [primeros pasos](Recursos/README.md#-primeros-pasos-en-acepta-el-reto)**  
+   - [Cómo registrarse](Recursos/00-registro.md)
+   - [Los tres tipos de entrada](Recursos/01-tipos-de-problemas.md)
+   - [Cómo probar tus programas antes de enviarlos](Recursos/03-probar-antes-de-enviar.md)
+   - [Cómo enviar un problema y entender el veredicto](Recursos/04-enviar-y-veredictos.md)
+
+4. **Empieza a resolver problemas**  
    - En la carpeta "Problemas" tendrás información sobre distintos tipos de problemas de aceptaelreto.com, clasificados por distintos criterios, entre estos, el nivel de dificultad.
    - Si eres nuevo en programación competitiva, comienza  con los problemas más fáciles. En [Recursos](Recursos) tienes información y ejemplos de los distintos tipos de problema que se plantean en acepta el reto.
    - También puedes elegir cualquier problema de aceptaelreto.com e intentar solucionarlo, aunque no aparezca en ningún listado de este repositorio.

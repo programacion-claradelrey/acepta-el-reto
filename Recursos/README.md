@@ -8,9 +8,21 @@ utilizando Java**, con especial enfoque en la preparación de concursos de progr
 
 ---
 
-## [Los tres tipos de entrada en "Acepta el reto"](01-tipos-de-problemas.md)
-En acepta el reto los problemas se pueden clasificar según cómo indican el final de la entrada.
-Identificar correctamente el tipo de entrada es el primer punto para resolver el problema.
+## 🚀 Primeros pasos en "Acepta el reto"
+Si es tu primera vez, lee estas guías en orden:
+
+1. **[Cómo registrarse](00-registro.md)**  
+   Crear la cuenta, confirmarla y elegir un nombre de usuario adecuado.
+2. **[Los tres tipos de entrada en "Acepta el reto"](01-tipos-de-problemas.md)**  
+   En acepta el reto los problemas se pueden clasificar según cómo indican el final de la entrada
+   (número de casos, caso final especial o fin de fichero).
+   Identificar correctamente el tipo de entrada es el primer punto para resolver el problema.
+3. **[Cómo probar tus programas antes de enviarlos](03-probar-antes-de-enviar.md)**  
+   Probar con ficheros, comparar la salida con `diff`/`fc`, inventar casos límite y medir el rendimiento.
+4. **[Cómo enviar un problema y entender el veredicto](04-enviar-y-veredictos.md)**  
+   El formulario de envío, dónde ver el resultado y qué hacer con cada veredicto (AC, PE, WA, CE, RTE, TLE…).
+
+---
 
 ## [Grafos](02-grafos.md)
 Un **grafo** es una estructura que sirve para representar **relaciones entre elementos**.
